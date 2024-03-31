@@ -12,3 +12,12 @@ document.write(`<h1>${arrNum} <br> ${arrNum1} <br> ${arrNum3}</h1>`)
 for (var i=1; i<=10; i++){
     document.write(i + "</br>")
 }
+
+// Question # 04
+var inpNum= +prompt("Enter Any Number");
+var takeNum= +prompt('Enter a range: ');
+
+for (i=1; i<=takeNum; i++){
+    document.write(inpNum + " * " + i + " = " + i*inpNum + "<br>")
+}
+
