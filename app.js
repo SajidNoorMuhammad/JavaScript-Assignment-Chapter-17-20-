@@ -86,9 +86,13 @@ for (var i= 0; i>arr.length; i++){
         smallest = arr[i];
     }
 }
-document.write(`Array Items ${arr} <br> The Smallest Number is ${smallest}`)
+document.write(`Array Items ${arr} <br> The Smallest Number is ${smallest} <br>`)
 
 // Question # 10
+document.write("<h2>print multiples of 5 ranging 1 to 100.</h2>")
+for (i=5; i<=100; i=i+5){
+    document.write(i + "<br>")
+}
 
 
   
