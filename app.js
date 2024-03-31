@@ -1,5 +1,8 @@
 // Question # 01
-// var Arr= [[hello][Hi][Bye]];
+var Arr= ['Hello']
+var Arr5= ['Happy']
+var Arr7= ['World']
+var combine= [Arr, Arr5, Arr7]
 
 // Question # 02
 var arrNum= ['0'+123]
@@ -13,7 +16,7 @@ for (var i=1; i<=10; i++){
     document.write(i + "</br>")
 }
 
-// Question # 04
+// // Question # 04
 var inpNum= +prompt("Enter Any Number");
 var takeNum= +prompt('Enter a range: ');
 
@@ -59,10 +62,10 @@ for (var i = 0; i <= 20; i++) {
   }
 
   //Question # 07
-//   var bakery = ['cake', 'apple pie', 'cookie', 'chips', 'patties']
-//   var userInput= prompt("Enter Bakery Item")
+  var bakery = ['cake', 'apple pie', 'cookie', 'chips', 'patties']
+  var userInput= prompt("Enter Bakery Item")
 
-  //Question # 08
+//   //Question # 08
 document.write("<h2>Find Largest Number</h2>")
 
 var arr = [3, 6, 2, 56, 32, 5, 89, 32, 212];
