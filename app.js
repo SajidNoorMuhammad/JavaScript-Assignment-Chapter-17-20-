@@ -77,16 +77,16 @@ document.write(`Array Items ${arr} <br> The Largest Number is ${largest}`);
 
 
 //Question # 09
-// document.write("<h2>Find Lowest Number</h2>")
-// var arr = [3, 6, 2, 56, 32, 5, 89, 32, 212];
-// var smallest= arr[0];
+document.write("<h2>Find Lowest Number</h2>")
+var arr = [3, 6, 2, 56, 32, 5, 89, 32, 212];
+var smallest= arr[0];
 
-// for (var i= 0; i>arr.length; i++){
-//     if (arr[i] < smallest){
-//         smallest = arr[i];
-//     }
-// }
-// document.write(`Array Items ${arr} <br> The Smallest Number is ${smallest}`)
+for (var i= 0; i>arr.length; i++){
+    if (arr[i] < smallest){
+        smallest = arr[i];
+    }
+}
+document.write(`Array Items ${arr} <br> The Smallest Number is ${smallest}`)
 
 // Question # 10
 
