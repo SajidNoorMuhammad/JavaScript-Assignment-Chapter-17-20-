@@ -63,17 +63,17 @@ for (var i = 0; i <= 20; i++) {
 //   var userInput= prompt("Enter Bakery Item")
 
   //Question # 08
-// document.write("<h2>Find Largest Number</h2>")
+document.write("<h2>Find Largest Number</h2>")
 
-// var arr = [3, 6, 2, 56, 32, 5, 89, 32, 212];
-// var largest = arr[0];
+var arr = [3, 6, 2, 56, 32, 5, 89, 32, 212];
+var largest = arr[0];
 
-// for (var i = 0; i < arr.length; i++) {
-//   if (arr[i] > largest ) {
-//     largest = arr[i];
-//   }
-// }
-// document.write(`Array Items ${arr} <br> The Largest Number is ${largest}`);
+for (var i = 0; i < arr.length; i++) {
+  if (arr[i] > largest ) {
+    largest = arr[i];
+  }
+}
+document.write(`Array Items ${arr} <br> The Largest Number is ${largest}`);
 
 
 //Question # 09
