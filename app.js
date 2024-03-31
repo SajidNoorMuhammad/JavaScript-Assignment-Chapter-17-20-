@@ -8,3 +8,7 @@ var arrNum3= [2101]
 var arr= [arrNum.join(), arrNum1.join(), arrNum3.join()]
 document.write(`<h1>${arrNum} <br> ${arrNum1} <br> ${arrNum3}</h1>`)
 
+// Question # 03
+for (var i=1; i<=10; i++){
+    document.write(i + "</br>")
+}
